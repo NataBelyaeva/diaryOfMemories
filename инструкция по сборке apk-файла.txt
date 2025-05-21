@@ -1,0 +1,14 @@
+1. Открываем терминал.
+
+Переходим в каталог проекта:
+
+cd путь\к\проекту
+
+2. Сборка debug-версии (для тестирования):
+
+./gradlew assembleDebug # Linux/macOS
+gradlew.bat assembleDebug # Windows
+
+После успешной сборки APK будет лежать здесь:
+
+app/build/outputs/apk/debug/app-debug.apk
