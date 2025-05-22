@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Diary" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="android:windowBackground">@drawable/background</item>
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Diary" parent="Base.Theme.Diary" />
+
+    <style name="Theme.MyApp" parent="Theme.MaterialComponents.Light">
+        <item name="colorControlNormal">#FF294D</item>
+        <item name="colorControlActivated">#FF294D</item>
+    </style>
+
+    <style name="Theme.poloska" parent="Theme.MaterialComponents.Light">
+        <item name="colorControlNormal">#FFDBDB</item>
+        <item name="colorControlActivated">#FFDBDB</item>
+    </style>
+</resources>
